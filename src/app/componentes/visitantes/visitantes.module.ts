@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { VisitantesRoutingModule } from './visitantes-routing.module';
 import { VisitantesComponent } from './visitantes.component';
 import { PoModule } from '@po-ui/ng-components';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { PoModule } from '@po-ui/ng-components';
   imports: [
     CommonModule,
     VisitantesRoutingModule,
+    FormsModule,
     PoModule
   ]
 })
